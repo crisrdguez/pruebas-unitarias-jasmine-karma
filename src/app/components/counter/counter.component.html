@@ -1,0 +1,11 @@
+<h1>Contador: {{contador}}</h1>
+
+
+<app-button-add [contador] = "contador" (onAdd)="handleCount($event)">
+
+</app-button-add>
+
+
+<app-button-dis [contador] = "contador" (onDis)="handleCount($event)">
+
+</app-button-dis>
