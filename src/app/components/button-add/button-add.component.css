@@ -1,3 +1,7 @@
 button{
-    font-size:20px;
+    background-color: lime;
+}
+
+button:hover{
+    background-color: rgb(27, 141, 27);
 }

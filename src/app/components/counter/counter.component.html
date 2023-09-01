@@ -1,11 +1,18 @@
-<h1>Contador: {{contador}}</h1>
 
 
-<app-button-add [contador] = "contador" (onAdd)="handleCount($event)">
+<div id="contenedor">
+    <h1>Contador: {{contador}}</h1>
 
-</app-button-add>
+    <div>
+        <app-button-add [contador] = "contador" (onAdd)="handleCount($event)">
 
-
-<app-button-dis [contador] = "contador" (onDis)="handleCount($event)">
-
-</app-button-dis>
+        </app-button-add>
+        
+        
+        <app-button-dis [contador] = "contador" (onDis)="handleCount($event)">
+        
+        </app-button-dis>
+    </div>
+    
+    
+</div>

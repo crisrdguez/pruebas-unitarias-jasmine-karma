@@ -1,4 +1,8 @@
+
 button{
-    font-size:20px;
-    margin-left: 15px;
+    background-color: rgb(253, 7, 7);
+}
+
+button:hover{
+    background-color: rgb(155, 20, 20);
 }
